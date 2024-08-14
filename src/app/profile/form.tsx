@@ -102,7 +102,7 @@ export default function Form({ title, onSubmit, initialValues }: FormProps) {
         <ActionIcon
           size="sm"
           variant="text"
-          onClick={() => closeModal(false)}
+          onClick={() => closeModal()}
         >
           <XMarkIcon className="h-auto w-6" strokeWidth={1.8} />
         </ActionIcon>
