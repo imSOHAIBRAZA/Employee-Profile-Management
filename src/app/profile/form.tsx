@@ -6,6 +6,7 @@ import {
   Text,
   ActionIcon,
   Input,
+  Title,
 } from "rizzui";
 import { XMarkIcon } from "@heroicons/react/20/solid";
 import { useModal } from "../shared/modal-views/use-modal";
@@ -97,7 +98,7 @@ export default function Form({ title, onSubmit, initialValues }: FormProps) {
   return (
     <div className="m-auto px-7 pt-6 pb-8">
       <div className="mb-7 flex items-center justify-between">
-        <Text as="h3">{title}</Text>
+        <Title as="h3">{title}</Title>
         <ActionIcon
           size="sm"
           variant="text"
