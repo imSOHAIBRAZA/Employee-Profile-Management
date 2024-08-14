@@ -1,4 +1,7 @@
 
+**Live Demo** 
+ https://employee-profile-management-urxx98wzo-imsohaibrazas-projects.vercel.app/
+
 # Profile Management System
 
 This project is a simple Profile Management System built with Next.js, React, and TypeScript. It allows users to manage their profile information, including their name, email, profile picture, experience, education, and skills. The project supports CRUD operations for each section and includes client-side form validation.
